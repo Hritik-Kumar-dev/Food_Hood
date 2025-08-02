@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.slick-next:before {
+    content: '→';
+    color: black;
+font-size: 60px;
+}
+.slick-prev:before {
+    content: '←';
+    color: black;
+    font-size: 60px;
+}
