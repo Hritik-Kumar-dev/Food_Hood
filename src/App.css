@@ -10,3 +10,15 @@ font-size: 60px;
     color: black;
     font-size: 60px;
 }
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px 2px rgba(251, 191, 36, 0.8); /* Amber glow */
+  }
+  50% {
+    box-shadow: 0 0 20px 6px rgba(251, 191, 36, 1);
+  }
+}
+
+.animation {
+  animation: pulseGlow 1.5s infinite ease-in-out;
+}
